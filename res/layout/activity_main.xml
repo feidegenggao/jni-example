@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/palyweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="67dp"
+        android:layout_marginTop="106dp"
+        android:text="PlayWeb" />
+
+    <Button
+        android:id="@+id/playbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/palyweb"
+        android:layout_alignBottom="@+id/palyweb"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:text="PlaySd" />
+
+    <EditText
+        android:id="@+id/playurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/cleartext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/palyweb"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/playbt"
+        android:text="ClearUrl" />
+
+</RelativeLayout>
